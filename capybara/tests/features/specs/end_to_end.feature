@@ -1,12 +1,12 @@
 #language: pt
 
-@
-Funcionalidade:
+@end_to_end
+Funcionalidade: Criar usuário
 
-Cenario:
+Cenario: Criar usuario com sucesso.
 Quando eu cadastro o usuário.
 Então verifico se o usuário foi cadastrado.
 
-Cenario:
+Cenario: Editar com sucesso.
 Quando edito um usuário.
 Então verifico se o usuário foi editado.
