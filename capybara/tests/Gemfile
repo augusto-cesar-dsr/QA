@@ -1,0 +1,9 @@
+source 'http://rubygems.org'
+
+gem 'capybara'
+gem 'rspec'
+gem 'cucumber'
+# gem 'chromedriver-helper'
+# gem 'geckodriver-helper'
+gem 'selenium-webdriver'
+gem 'webdrivers', '~> 4.6'
