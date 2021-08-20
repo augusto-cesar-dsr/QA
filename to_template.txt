@@ -1,3 +1,5 @@
 { echo "#language: pt"; echo; echo @; echo Funcionalidade:; echo; echo Cenario:;} > .feature
 
 { echo; } > .rb
+
+{ echo "class Name < SitePrism::Page"; echo; echo "  set_url ''"; echo; echo end;} > .rb
