@@ -1,5 +1,5 @@
 ---
-  default: --profile pretty -p homolog -p chrome_headless
+  default: --profile pretty -p homolog -p chrome -p html
 
   pretty: --format pretty
   progress: --format progress
@@ -12,3 +12,4 @@
   # safari: BROWSER=safari
   # ie: BROWSER=ie
   # poltergeist: BROWSER=poltergeist
+  html: --format html --out=reports/relatorio.html

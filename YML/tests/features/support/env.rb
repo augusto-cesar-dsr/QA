@@ -3,6 +3,7 @@ require 'selenium-webdriver'
 require 'site_prism'
 require 'webdrivers'
 require_relative 'page_helper.rb'
+require_relative 'helper.rb'
 
 BROWSER = ENV['BROWSER']
 AMBIENTE = ENV['AMBIENTE']
@@ -10,6 +11,7 @@ AMBIENTE = ENV['AMBIENTE']
 CONFIG = YAML.load_file(File.dirname(__FILE__) + "/ambientes/#{AMBIENTE}.yml")
 
 World(PageObjects)
+World(Helper)
 
 Capybara.register_driver :selenium do |app|
   if BROWSER.eql?('chrome')
